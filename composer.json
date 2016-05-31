@@ -12,7 +12,10 @@
     ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/*"
+        "bin/linux/wkhtmltopdf",
+        "bin/linux/wkhtmltoimage",
+        "bin/osx/wkhtmltopdf",
+        "bin/osx/wkhtmltoimage"
     ],
     "require": {
     }
